@@ -1,64 +1,79 @@
-console.log("Hello, World!");
+// console.log("Hello, World!");
 
-let name ='vasu'
-// let age = 22
-let isStudent = true 
+// let name ='vasu'
+// // let age = 22
+// let isStudent = true 
 
-console.log(typeof name); // string
-// console.log(typeof age); // number
-console.log(typeof isStudent); // boolean
+// console.log(typeof name); // string
+// // console.log(typeof age); // number
+// console.log(typeof isStudent); // boolean
 
-let f = 10;
-let b = 20;
+// let f = 10;
+// let b = 20;
 
-console.log(a + b); // 30
-console.log(a - b); // -10
-console.log(a * b);
-console.log(a / b); // 0.5
-console.log(a % b); // 10
-console.log(a ** b); // 100000000000000000000
+// console.log(a + b); // 30
+// console.log(a - b); // -10
+// console.log(a * b);
+// console.log(a / b); // 0.5
+// console.log(a % b); // 10
+// console.log(a ** b); // 100000000000000000000
 
-console.log(a > b); // false
-console.log(a < b);
-console.log(10 == "10");
-console.log(10 === "10");
+// console.log(a > b); // false
+// console.log(a < b);
+// console.log(10 == "10");
+// console.log(10 === "10");
 
 
 
-let age = 22;
+// let age = 22;
 
-if(age >= 18) {
-	console.log("you are eligible to vote");
+// if(age >= 18) {
+// 	console.log("you are eligible to vote");
 
-} else {
-	console.log("you are not eligible to vote");
+// } else {
+// 	console.log("you are not eligible to vote");
+// }
+
+
+// for(let i = 1; i <= 5;i++) {
+// 	console.log(i);
+// }
+
+// a = "apple";
+// console.log(a);
+
+// var a = "banana";
+// console.log(a);
+
+// var a = "grapes";
+// console.log(a);
+
+// let school = "nursery";
+// console.log(school);
+
+
+//  school = "primary";
+// console.log(school);
+
+
+// const ground = "playground";
+// console.log(ground);
+
+// ground = "football";
+// console.log(ground);
+
+let fruits = ["apple", 55 , "banana", {name: "vasu"}]
+
+console.log(fruits);
+
+const game = {
+    cricket : "kohli",
+    kabbadi : "rahul "
 }
 
+console.log(game);
 
-for(let i = 1; i <= 5;i++) {
-	console.log(i);
-}
+console.log(typeof game);
 
-a = "apple";
-console.log(a);
-
-var a = "banana";
-console.log(a);
-
-var a = "grapes";
-console.log(a);
-
-let school = "nursery";
-console.log(school);
-
-
- school = "primary";
-console.log(school);
-
-
-const ground = "playground";
-console.log(ground);
-
-ground = "football";
-console.log(ground);
+console.log(typeof fruits);
 
