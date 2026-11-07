@@ -77,3 +77,17 @@ console.log(typeof game);
 
 console.log(typeof fruits);
 
+
+// flowchart TD
+//     A[main branch] --> B[Create development branch]
+//     B --> C[Make code changes]
+//     C --> D[git add .]
+//     D --> E[git commit]
+//     E --> F[git push origin development]
+//     F --> G[Switch to main]
+//     G --> H[git pull origin main]
+
+// git switch main
+// git merge development
+// dftyuioipo[0p]-[]
+// git push origin main
